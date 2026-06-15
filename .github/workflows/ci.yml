@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  pull_request:
+    paths:
+      - Formula/**
+      - .github/workflows/ci.yml
+  push:
+    branches:
+      - main
+    paths:
+      - Formula/**
+      - .github/workflows/ci.yml
+
+permissions:
+  contents: read
+
+jobs:
+  formulae:
+    name: Formulae
+    runs-on: macos-latest
+    steps:
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Tap repository
+        run: brew tap flexdinesh/tap "$GITHUB_WORKSPACE"
+
+      - name: Validate formulae
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          shopt -s nullglob
+          formula_paths=(Formula/*.rb)
+          if [[ ${#formula_paths[@]} -eq 0 ]]; then
+            echo "No formulae to validate."
+            exit 0
+          fi
+
+          brew style flexdinesh/tap
+
+          for formula_path in "${formula_paths[@]}"; do
+            formula="$(basename "${formula_path}" .rb)"
+            qualified_formula="flexdinesh/tap/${formula}"
+
+            brew audit --strict --online "${qualified_formula}"
+            brew install "${qualified_formula}"
+            brew test "${qualified_formula}"
+          done
