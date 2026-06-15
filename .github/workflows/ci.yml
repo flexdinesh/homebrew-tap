@@ -21,10 +21,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Set up Homebrew
-        uses: Homebrew/actions/setup-homebrew@master
-
-      - name: Tap repository
-        run: brew tap flexdinesh/tap "$GITHUB_WORKSPACE"
+        uses: Homebrew/actions/setup-homebrew@main
 
       - name: Validate formulae
         shell: bash
