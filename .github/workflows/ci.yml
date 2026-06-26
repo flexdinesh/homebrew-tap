@@ -4,12 +4,14 @@ on:
   pull_request:
     paths:
       - Formula/**
+      - Casks/**
       - .github/workflows/ci.yml
   push:
     branches:
       - main
     paths:
       - Formula/**
+      - Casks/**
       - .github/workflows/ci.yml
 
 permissions:
@@ -30,8 +32,9 @@ jobs:
 
           shopt -s nullglob
           formula_paths=(Formula/*.rb)
-          if [[ ${#formula_paths[@]} -eq 0 ]]; then
-            echo "No formulae to validate."
+          cask_paths=(Casks/*.rb)
+          if [[ ${#formula_paths[@]} -eq 0 && ${#cask_paths[@]} -eq 0 ]]; then
+            echo "No formulae or casks to validate."
             exit 0
           fi
 
@@ -44,4 +47,12 @@ jobs:
             brew audit --strict --online "${qualified_formula}"
             brew install "${qualified_formula}"
             brew test "${qualified_formula}"
+          done
+
+          for cask_path in "${cask_paths[@]}"; do
+            cask="$(basename "${cask_path}" .rb)"
+            qualified_cask="flexdinesh/tap/${cask}"
+
+            brew audit --strict --online --cask "${qualified_cask}"
+            brew install --cask "${qualified_cask}"
           done
