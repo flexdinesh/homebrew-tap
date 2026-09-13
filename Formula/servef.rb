@@ -1,7 +1,6 @@
 class Servef < Formula
   desc "Serve and browse Markdown files from a local directory"
   homepage "https://github.com/flexdinesh/servef"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
