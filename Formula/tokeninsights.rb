@@ -1,30 +1,30 @@
 class Tokeninsights < Formula
   desc "Local token usage tracking for OpenCode, Pi, and Codex"
   homepage "https://github.com/flexdinesh/tokeninsights"
-  version "0.0.7"
+  version "0.0.8"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.7/tokeninsights_0.0.7_darwin_amd64.tar.gz"
-      sha256 "9780b0c702c713fe00d70d2fe6fe25eb848dcf73d0a92e2a6205d4ecd3a008c4"
+      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.8/tokeninsights_0.0.8_darwin_amd64.tar.gz"
+      sha256 "8a443836dbd8f1efc68f3934ec3f55bc7ff18109c6b56e25c108030a620e5f8d"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.7/tokeninsights_0.0.7_darwin_arm64.tar.gz"
-      sha256 "b5b6757a20c800bdad5bcb8a49adbe762808f929578ade15589ed594534539dc"
+      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.8/tokeninsights_0.0.8_darwin_arm64.tar.gz"
+      sha256 "142b24e3e2aefd24efab8fb5cba00d1931f73840e1881f30db0076123b2e6240"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.7/tokeninsights_0.0.7_linux_amd64.tar.gz"
-      sha256 "325b438e009f608f21fdc4ecdb5833cfd29937ad045c88389b1af65da3d3d75b"
+      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.8/tokeninsights_0.0.8_linux_amd64.tar.gz"
+      sha256 "baa14616a2429b597212ccbf9a31fc10016cbab53b713f3eb58a145d2812d755"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.7/tokeninsights_0.0.7_linux_arm64.tar.gz"
-      sha256 "7f5874810a9205a56b4f0f5424c7b3d3ae2f1661cb2c7bfc3b85292889eb9c54"
+      url "https://github.com/flexdinesh/tokeninsights/releases/download/packages%2Fcli%2Fv0.0.8/tokeninsights_0.0.8_linux_arm64.tar.gz"
+      sha256 "ca549f08a61f02f6cfc035a8cb92fb66228b2ee0bc641169f815bcb60fb6692a"
     end
   end
 
