@@ -4,25 +4,25 @@ class Gitsy < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.2/gitsy_0.1.2_darwin_amd64.tar.gz"
-      sha256 "ff1b25384b5e561126f2532cc04b2105beb0e25bb998a366c78e895770678ab0"
+      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.3/gitsy_0.1.3_darwin_amd64.tar.gz"
+      sha256 "2ef6699b98dfa45ac5bd53e495084ad3d06f7b603d8a229fba49887182e79e41"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.2/gitsy_0.1.2_darwin_arm64.tar.gz"
-      sha256 "5dd771c572bf3048cbb192c83c2b9f007a2d8bb0f9a93a867c86770d55e8f278"
+      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.3/gitsy_0.1.3_darwin_arm64.tar.gz"
+      sha256 "0a85e22dae4d5ff934ded124e26bf6a9424c6b3281824e1fc104b05a00162f39"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.2/gitsy_0.1.2_linux_amd64.tar.gz"
-      sha256 "b293a70bf3801fa78de748e4c6420fddc75794077945df04a12bb5e0a905c293"
+      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.3/gitsy_0.1.3_linux_amd64.tar.gz"
+      sha256 "8d2a5449428bb969187ad804edb4a9865432216916b2423375312698637335a7"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.2/gitsy_0.1.2_linux_arm64.tar.gz"
-      sha256 "971c6600f4fe80036266c71f7a689a6b211dc8847710dce2ffacb8b5e05e2d22"
+      url "https://github.com/flexdinesh/gitsy/releases/download/v0.1.3/gitsy_0.1.3_linux_arm64.tar.gz"
+      sha256 "86be35a4f728b90cc9096293514e0904f29cbbd89c8157634d214927310b2a1e"
     end
   end
 
