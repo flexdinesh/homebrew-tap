@@ -5,25 +5,25 @@ class Servediff < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.1/servediff_0.1.1_darwin_amd64.tar.gz"
-      sha256 "d95d6a2c83030c970ffbbe4ae014f10378eafc31ab112cde6c2afc9e91f4d64e"
+      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.2/servediff_0.1.2_darwin_amd64.tar.gz"
+      sha256 "a43aa2e90cf14f36d739116e2ee5ebe36b01c45c5e5e8288b3787f779cc8c336"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.1/servediff_0.1.1_darwin_arm64.tar.gz"
-      sha256 "8f85dbf6de87d9e9b7ecf5db1c7d838753e93d7f306267457c209a648ea4c8e9"
+      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.2/servediff_0.1.2_darwin_arm64.tar.gz"
+      sha256 "82a27c81c18cf5ae2445483bc6da966762d881eb5e294cee13c52bd50fa02da2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.1/servediff_0.1.1_linux_amd64.tar.gz"
-      sha256 "aad069670883fad10d3a50474ebe3a72529a673960f05c26ddbedd87bf813a71"
+      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.2/servediff_0.1.2_linux_amd64.tar.gz"
+      sha256 "93711559e692ffca1a6e753d0cd6e206bafe6ded65bdac8b612d91da3c4f68c2"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.1/servediff_0.1.1_linux_arm64.tar.gz"
-      sha256 "f4ccc7c523c94949b04734a84307da0c9da1f71bf09a0e3095ff777a8cba3c32"
+      url "https://github.com/flexdinesh/servediff/releases/download/v0.1.2/servediff_0.1.2_linux_arm64.tar.gz"
+      sha256 "bc18ae806c9758c4851b86354c74fd8514cbd2ffb6adf0340667448433aafe74"
     end
   end
 
