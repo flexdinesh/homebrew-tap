@@ -5,25 +5,25 @@ class Servef < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/flexdinesh/servef/releases/download/v0.1.4/servef_0.1.4_darwin_amd64.tar.gz"
-      sha256 "6accaf0056ab5b041c5b41518f24be0c368735d69756e21eed7d66ca69a3223c"
+      url "https://github.com/flexdinesh/servef/releases/download/v0.1.5/servef_0.1.5_darwin_amd64.tar.gz"
+      sha256 "e9176b452eb041c94201e1c9be2b6038eb044fcfd019999826bf840a04fe4b6f"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/servef/releases/download/v0.1.4/servef_0.1.4_darwin_arm64.tar.gz"
-      sha256 "0dccca6c09eebffabe9ea420136c933d57d17d6c87a9b732059f8c463644974f"
+      url "https://github.com/flexdinesh/servef/releases/download/v0.1.5/servef_0.1.5_darwin_arm64.tar.gz"
+      sha256 "c600c4712760f77d4921dea5887569f6e5261660d9a135451ba365346e48cb15"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/flexdinesh/servef/releases/download/v0.1.4/servef_0.1.4_linux_amd64.tar.gz"
-      sha256 "39a7185c5eafde7109c80a31e2d437b7c7cb1ec5282a58abeb4016fa5498c377"
+      url "https://github.com/flexdinesh/servef/releases/download/v0.1.5/servef_0.1.5_linux_amd64.tar.gz"
+      sha256 "eb21866edd95b54aef4745d360c09d78dc4b38af4dee5546e5aaabd0f36d9628"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/servef/releases/download/v0.1.4/servef_0.1.4_linux_arm64.tar.gz"
-      sha256 "1981a90fb340e7693b9f37570e4ca4c2b3e09405b1bbe421455935283d96ca2d"
+      url "https://github.com/flexdinesh/servef/releases/download/v0.1.5/servef_0.1.5_linux_arm64.tar.gz"
+      sha256 "61169f1efb400970633d9964408c4e01befb66c400c1b02f4cc494522f6f2c20"
     end
   end
 
