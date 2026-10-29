@@ -33,7 +33,7 @@ cask "ssh-drop" do
 
   binary "ssh-drop"
 
-  # No zap stanza required
+  zap :not_required
 
   caveats <<~EOS
     ssh-drop requires rsync in your PATH for transfers.
