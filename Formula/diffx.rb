@@ -5,25 +5,25 @@ class Diffx < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.1/diffx_0.2.1_darwin_amd64.tar.gz"
-      sha256 "ede626cc580e8e0acc2896c5458bc8fc5c68ee17cb240a7838403d8e504622eb"
+      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.4/diffx_0.2.4_darwin_amd64.tar.gz"
+      sha256 "2d0768a5dbafc873d9b6b4042778dfaa3b7160626acb43601aa3935682c44b65"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.1/diffx_0.2.1_darwin_arm64.tar.gz"
-      sha256 "e788de80fd47887a1d2cbdfe4ec2b62533314a2615abb64218559dbaf9e4e78b"
+      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.4/diffx_0.2.4_darwin_arm64.tar.gz"
+      sha256 "9d27c691230f7145751b8274daeb38322682434ba69aef5994ffefecf86ad59f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.1/diffx_0.2.1_linux_amd64.tar.gz"
-      sha256 "0b4e6f2f6ba372e12e26a160dbb043dda4caaf207ec16acafaa7c07eccc13a08"
+      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.4/diffx_0.2.4_linux_amd64.tar.gz"
+      sha256 "e7f8010dad6be8bc6549928ad66910a1f8a929b523df366e89f83ec8ddc0be8e"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.1/diffx_0.2.1_linux_arm64.tar.gz"
-      sha256 "42e633193d50f01ce7e0491dbe46ae70372001dfc1b6c849d1dc128a746d9791"
+      url "https://github.com/flexdinesh/diffx/releases/download/v0.2.4/diffx_0.2.4_linux_arm64.tar.gz"
+      sha256 "4838a409287e834f8e77dd323fe645004a34c543dd57054df1ad7af3bdeaf561"
     end
   end
 
