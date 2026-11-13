@@ -4,25 +4,25 @@ class Portforward < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.1/portforward_0.1.1_darwin_amd64.tar.gz"
-      sha256 "c5f506b9ab4cf23146c4c5d5ed9dbca3e96947092cc901c442f98150d6fc699c"
+      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.2/portforward_0.1.2_darwin_amd64.tar.gz"
+      sha256 "e305b35f65d6e67022ef7230210297868abf1b36dcc40fa2673dda18ed492a31"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.1/portforward_0.1.1_darwin_arm64.tar.gz"
-      sha256 "9ebcdf9fb07db3531772fff63567c320ab660b0918fb05157566087a7028bf98"
+      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.2/portforward_0.1.2_darwin_arm64.tar.gz"
+      sha256 "60a94a6d3c4113b08d9762a0f000cf044277384904d6ecd4a6a36a164b0ed73c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.1/portforward_0.1.1_linux_amd64.tar.gz"
-      sha256 "1b98cb2913e8ca8247d36227edf3e84f8a1a286b8301a7d04f6be9910e42e190"
+      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.2/portforward_0.1.2_linux_amd64.tar.gz"
+      sha256 "42e85a6ddb75835c5c2c08931cbec708023453c3e5422ea3e9544523b633d837"
     end
 
     on_arm do
-      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.1/portforward_0.1.1_linux_arm64.tar.gz"
-      sha256 "fcabf7986ecd3a872732a968ece2c7b5c4691b8ad765aa874ffa27bcd792283c"
+      url "https://github.com/flexdinesh/portforward/releases/download/v0.1.2/portforward_0.1.2_linux_arm64.tar.gz"
+      sha256 "ee3e188424eec90ad27dcccc1483aadb4d6c17ab749e1853411ecad257784154"
     end
   end
 
